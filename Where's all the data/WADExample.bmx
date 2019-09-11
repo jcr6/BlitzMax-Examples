@@ -26,7 +26,7 @@ Global S:TStream = ReadStream(JCR_B(JD,"MAP_E1M5/VERTEXES")) ' BTW: JCR6 is case
 Global i=0
 While Not Eof(S)
 	i:+1
-	Print "Vertex #"+i+": ("+ReadShort(S)+","+ReadShort(S)+")"
+	Print "Vertex #"+i+": ("+ReadShort(S)+","+ReadShort(S)+")" ' First 16-bit integer is the x coordinate, and the second 16-bit integer the y (16bit was a standard integer back in the MS-DOS days).
 Wend
 
 
