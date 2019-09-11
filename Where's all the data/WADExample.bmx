@@ -51,3 +51,5 @@ Rem
 - In this source I've assumed you have a LitteEndian CPU (which is for Windows the only kind), 
   if running this code on a BigEndian CPU the line "S = LittleEndianStream(S)" must be added after 
   the "Global S:TStream" line, and the module "BRL.EndianStream" must be imported as well.
+End Rem
+
