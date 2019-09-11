@@ -50,4 +50,4 @@ Rem
   HERETIC. All files that are not part of maps, will just be in the 'root' folder.
 - In this source I've assumed you have a LitteEndian CPU (which is for Windows the only kind), 
   if running this code on a BigEndian CPU the line "S = LittleEndianStream(S)" must be added after 
-  the "Global S:TSteam" line, and the module "BRL.EndianStream" must be imported as well.
+  the "Global S:TStream" line, and the module "BRL.EndianStream" must be imported as well.
