@@ -1,6 +1,6 @@
 Strict
-Framework jcr6.zlibdriver ' This will automatically import the main driver so importing that is not needed
-Import jcr6.wad ' This will enable JCR6 to recognize a WAD file (both IWAD and PWAD alike) and get its directory
+Framework jcr6.wad ' This will enable JCR6 to recognize a WAD file (both IWAD and PWAD alike) and get its directory
+' This line above will also automatically import the main driver so importing that separately is not needed
 Import brl.map
 Import brl.stream
 
